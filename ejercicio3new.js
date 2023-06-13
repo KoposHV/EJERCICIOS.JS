@@ -7,23 +7,26 @@ const movies = [
     { name: "Terminator", durationInMinutes: 140 },
 ] 
 const finalsmallmovie = []  
+const finalmediummovie = []
+const finallargemovie = []
 for (let i = 0; i < movies.length; i++) {
     const list = movies[i];
-    console.log(list);
-    if (movies.durationInMinutes < 100) {
+ if (movies.durationInMinutes < 100) {
         finalsmallmovie.push(movies) };
-        console.log(smallmovies);
-    
-    if (movies.durationInMinutes > 100 && movie.durationInMinutes < 200) {
+        console.log(finalsmallmovie);
+ }
+ for (let i = 0; i < movies.length; i++) {
+    const list = movies[i];
+ if (movies.durationInMinutes > 100 && movies.durationInMinutes < 200) {
         finalmediummovie.push(movies) };
-        console.log(mediummovies);
+        console.log(finalmediummovie);
+ } 
+ for (let i = 0; i < movies.length; i++) {
+    const list = movies[i];     
 
     if (movies.durationInMinutes > 200) {
-        finallargemovies.push(movies)};
-        console.log(largemovies);    
-
-
-
-    }
+        finallargemovie.push(movies)};
+        console.log(finallargemovie);    
+ }
     
     
