@@ -4,6 +4,10 @@ const products = [
     { name: "Sable laser FX", sellCount: 23 },
     { name: "Varita de Voldemort", sellCount: 6 },
     ];
-    for(let i = 0; i < products.length; i++) {}
+    for(let i = 0; i < products.length; i++) {
+        const totalsellCount = products[i];
+        products = (10 + 302 +23 + 6);
+        console.log(totalsellCount);
+    }
  
  
