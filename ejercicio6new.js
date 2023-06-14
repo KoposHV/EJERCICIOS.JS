@@ -8,15 +8,15 @@ const products = [
 ];
 for(let i = 0; i < products.length; i++) {
     const product = products[i];
-if (products.sellCount > 20){
-    goodProducts.push(products);
+if (product.sellCount > 20){
+    goodProducts.push(product);
    }
-if (products.sellCount < 20) {
-    badProducts.push(products);
+if (product.sellCount < 20) {
+    badProducts.push(product);
     }  
 }
-console.log(goodProducts);
-console.log(badProducts);  
+console.log("Good Products:" ,goodProducts);
+console.log("Bad Products:" ,badProducts);  
 
 
 
