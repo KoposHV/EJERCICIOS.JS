@@ -7,7 +7,7 @@ const products = [
    let totalSellCount = 0;
       
       for (let i = 0; i < products.length; i++) {
-        totalSellCount += products[i].sellCount;
+        totalSellCount = products[i];
       }
       
       console.log("Total de ventas: " + totalSellCount);
