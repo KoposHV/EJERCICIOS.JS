@@ -7,16 +7,15 @@ const foodSchedule = [
 { name: "Rice", isVegan: true },
 { name: "Pasta", isVegan: true },
 ];
-const usedFruits = [];
-for (const i = 0; i < foodSchedule.length; i++) {
+
+for (let i = 0; i < foodSchedule.length; i++) {
     if (!foodSchedule[i].isVegan) {
-        let fruitIndex = Math.floor(Math.random() * fruits.length);
-        while
-        (usedFruits.includes(fruits[fruitIndex])){
-            fruitIndex = Math.floor(Math.random() * fruits.length);
-        }
-        foodSchedule[i].name = fruits[fruitIndex];
-        usedFruits.push(fruits[fruitIndex]);
-        console.log(foodSchedule);
-        }
+ //Reemplazar comida no vegana por una fruta no duplicada
+ let randomFruitIndex = Math.floor(Math.random() * fruits.length); 
+ let randomFruit = fruits[randomFruitIndex];
+ foodSchedule[i].name = randomFruit;
+ //Remover la fruta del array para evitar duplicados
+ fruits.splice(randomFruitIndex, 1);
+     }
    }
+   console.log(foodSchedule);
