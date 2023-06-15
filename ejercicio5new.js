@@ -4,17 +4,15 @@ const products = [
     { name: "Sable laser FX", sellCount: 23 },
     { name: "Varita de Voldemort", sellCount: 6 },
     ];
-    let totalSales = 0;
+    let totalSellCount = 0;
 
 for (let i = 0; i < products.length; i++) {
-  totalSellCount += products[i].
-  totalSellCount += products[i].
 
-  totalSellCount += products
+  totalSellCount += products[i].
+  sellCount;
 
-  totalSales
-sellCount;
 }
+
 
 const averageSales = totalSellCount / products.length;
 
