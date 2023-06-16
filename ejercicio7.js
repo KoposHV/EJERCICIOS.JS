@@ -14,7 +14,8 @@ for (let i =0; i < 10; i++) {
     if (i === 9) {
         console.log("estoy dormido");
     }
-    else{console.log("intentando dormir")}
+    else{console.log("intentando dormir")
+}
 }
   
 
