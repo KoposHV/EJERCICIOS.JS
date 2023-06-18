@@ -12,13 +12,15 @@ const counterWords = [
     'code'
     ];
     function repeatCounter(param) {
-        const counter = [];
-        for (let i = 0; i < param.length; i++);
-        const word = param[i];
-        if (counter[word]) {
-            counter[word] += counter[word]
-            else
+        let repeatCounter = "";
+        for (const item of param) {
+            if (item.length === repeatWord) {
+                repeatWord = item
             }
         }
-    }
+    console.log(repeat.word, "las palabras repetidas son:")
+            
+            }
+        
+    
 
