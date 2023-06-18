@@ -5,3 +5,6 @@ function sum (numberOne, numberTwo) {
         console.log(numberTwo);
     }
    }
+   sum(2, 5);
+   sum(10, 1);
+   sum(4,4);
