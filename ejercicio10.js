@@ -1,12 +1,10 @@
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 function sumAll(param) {
-    let = 0;
-    for (let i = 0; i<param.length; i++) {
-        sum += param[i];
+    let counter = 0;
+    for (const element of param) {
+        counter += element;
     }
-    return sum;
-
-    console.log(sumAll)
+    console.log(counter);
 }
-
+sumAll(numbers);
 
